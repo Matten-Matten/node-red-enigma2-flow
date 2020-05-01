@@ -6,13 +6,11 @@
 https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-SUB-Flow.json
 
 ---
-
-![picture](https://raw.githubusercontent.com/Matten-Matten/node-red-enigma2-flow/master/picture/Node-RED_enigma2.png)
-
-
 ## Beispiel:
 
 https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-BSP-Flow.json
+
+![picture](https://raw.githubusercontent.com/Matten-Matten/node-red-enigma2-flow/master/picture/Node-RED_enigma2.png)
 
 ---
 
