@@ -177,4 +177,12 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
  * `Is Record (Aufnahme aktiv)`
 
 ---
+
+## Changelog
+
+
+### 0.0.1 (2020-05-01)
+* (Matten-Matten)       add: `first publication`
+
+---
 made by [Matten Matten](https://github.com/Matten-Matten)
