@@ -1,11 +1,11 @@
 # **NodeRed Enigma2 Subflow**
 
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
+https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-SUB-Flow.json
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
+https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-SUB-Flow.json
 
 ---
-
-https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-SUB-Flow.json
 
 ![picture](https://raw.githubusercontent.com/Matten-Matten/node-red-enigma2-flow/master/picture/Node-RED%20_%20enigma2.png)
 
