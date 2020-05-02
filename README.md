@@ -178,6 +178,8 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 
 ## Changelog
 
+### 0.0.2 (2020-05-02)
+* (Matten-Matten)       bugfix: `correction in error handling`
 
 ### 0.0.1 (2020-05-01)
 * (Matten-Matten)       add: `first publication`
