@@ -425,7 +425,7 @@
             {
                 "name": "POLL",
                 "type": "str",
-                "value": "6",
+                "value": "5",
                 "ui": {
                     "icon": "font-awesome/fa-retweet",
                     "label": {
@@ -442,9 +442,9 @@
                             },
                             {
                                 "l": {
-                                    "en-US": "6 sec. Intervall"
+                                    "en-US": "5 sec. Intervall"
                                 },
-                                "v": "6"
+                                "v": "5"
                             },
                             {
                                 "l": {
@@ -530,7 +530,7 @@
         "icon": "font-awesome/fa-desktop",
         "status": {
             "x": 1880,
-            "y": 540,
+            "y": 580,
             "wires": [
                 {
                     "id": "a2a7a9ec.248a28",
@@ -711,8 +711,13 @@
         "scope": [
             "1be59d05.5486e3",
             "33003481.f3c2dc",
+            "90875983.834518",
+            "738c1b1d.a5f804",
+            "2f2e56b1.5bab8a",
+            "6384942f.a9cc8c",
             "6db20068.e1cbd",
-            "288d7a5.1926d86"
+            "288d7a5.1926d86",
+            "2455998d.fcf736"
         ],
         "uncaught": false,
         "x": 940,
@@ -721,7 +726,8 @@
             [
                 "7b5fead2.15b6c4",
                 "5c9f528e.01c64c",
-                "391f5fae.9ceb3"
+                "391f5fae.9ceb3",
+                "8e5e861c.d41c88"
             ]
         ]
     },
@@ -765,8 +771,7 @@
         "y": 380,
         "wires": [
             [
-                "e5c6a994.398308",
-                "d9d5a69b.1308b8"
+                "e5c6a994.398308"
             ]
         ]
     },
@@ -5121,7 +5126,8 @@
         "y": 160,
         "wires": [
             [
-                "5f837a9b.9ab704"
+                "5f837a9b.9ab704",
+                "34087cef.70ecf4"
             ]
         ]
     },
@@ -5603,7 +5609,7 @@
             },
             {
                 "t": "eq",
-                "v": "6",
+                "v": "5",
                 "vt": "str"
             },
             {
@@ -6013,7 +6019,8 @@
         "links": [
             "b21520a1.14369",
             "ed5379b8.a0bff8",
-            "68a55313.44b44c"
+            "68a55313.44b44c",
+            "ade8a450.203be8"
         ],
         "x": 1515,
         "y": 300,
@@ -6039,19 +6046,6 @@
                 "e5522bd0.b74e08"
             ]
         ]
-    },
-    {
-        "id": "d9d5a69b.1308b8",
-        "type": "link out",
-        "z": "73ce8e95.c8bef",
-        "d": true,
-        "name": "DEBUG",
-        "links": [
-            "eb904597.ec88b8"
-        ],
-        "x": 1375,
-        "y": 420,
-        "wires": []
     },
     {
         "id": "c3e7aa65.506e68",
@@ -6452,39 +6446,6 @@
         "info": "",
         "x": 1990,
         "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "aa7ddcda.39f81",
-        "type": "catch",
-        "z": "73ce8e95.c8bef",
-        "name": "",
-        "scope": [
-            "81e6f36c.1603f",
-            "b1c06ee1.9b77d",
-            "8069bd26.5e076",
-            "b9651c44.9ba6f"
-        ],
-        "uncaught": false,
-        "x": 940,
-        "y": 420,
-        "wires": [
-            [
-                "5ea21507.2d6a6c"
-            ]
-        ]
-    },
-    {
-        "id": "5ea21507.2d6a6c",
-        "type": "link out",
-        "z": "73ce8e95.c8bef",
-        "d": true,
-        "name": "DEBUG",
-        "links": [
-            "eb904597.ec88b8"
-        ],
-        "x": 1035,
-        "y": 420,
         "wires": []
     },
     {
@@ -7264,7 +7225,8 @@
             "ed5379b8.a0bff8",
             "6327a64d.6064e8",
             "608775dd.5a61cc",
-            "68a55313.44b44c"
+            "68a55313.44b44c",
+            "ade8a450.203be8"
         ],
         "x": 35,
         "y": 440,
@@ -9077,12 +9039,75 @@
         ]
     },
     {
-        "id": "64d72d22.69f504",
+        "id": "2d875fc2.cc387",
+        "type": "change",
+        "z": "73ce8e95.c8bef",
+        "name": "Start Poll",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1240,
+        "y": 420,
+        "wires": [
+            [
+                "ade8a450.203be8"
+            ]
+        ]
+    },
+    {
+        "id": "ade8a450.203be8",
+        "type": "link out",
+        "z": "73ce8e95.c8bef",
+        "name": "POLL",
+        "links": [
+            "82847569.1be098",
+            "9479e625.bc5978"
+        ],
+        "x": 1335,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "8e5e861c.d41c88",
+        "type": "delay",
+        "z": "73ce8e95.c8bef",
+        "name": "60s",
+        "pauseType": "delay",
+        "timeout": "60",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "3",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 1110,
+        "y": 420,
+        "wires": [
+            [
+                "2d875fc2.cc387"
+            ]
+        ]
+    },
+    {
+        "id": "10990346.7611ad",
         "type": "subflow:73ce8e95.c8bef",
         "z": "8ee283de.e0c71",
         "name": "",
-        "x": 750,
-        "y": 1220,
+        "x": 680,
+        "y": 1640,
         "wires": [
             [],
             [],
