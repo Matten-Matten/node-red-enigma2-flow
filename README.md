@@ -11,6 +11,7 @@ https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-SUB-F
 https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-BSP-Flow.json
 
 ![picture](https://raw.githubusercontent.com/Matten-Matten/node-red-enigma2-flow/master/picture/Node-RED_enigma2.png)
+![picture](https://raw.githubusercontent.com/Matten-Matten/node-red-enigma2-flow/master/picture/Node-RED%20_%201enigma2%20flow%20config.png)
 
 ---
 
