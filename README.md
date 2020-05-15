@@ -1,5 +1,5 @@
 # **NodeRed Enigma2 Subflow** ![picture](https://avatars3.githubusercontent.com/u/5375661?s=50&v=4)
-## `V 0.0.2`
+## `V 0.0.4`
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
  
@@ -178,6 +178,12 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 ---
 
 ## Changelog
+
+### 0.0.4 (2020-05-15)
+* (Matten-Matten)       bugfix: `fix bug in message reply`
+
+### 0.0.3 (2020-05-12)
+* (Matten-Matten)       bugfix: `decode special characters in the message text (äöüÄÖÜß)`
 
 ### 0.0.2 (2020-05-02)
 * (Matten-Matten)       bugfix: `correction in error handling`
