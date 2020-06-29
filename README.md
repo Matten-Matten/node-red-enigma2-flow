@@ -3,6 +3,9 @@
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
  
+Forum: https://homematic-forum.de/forum/viewtopic.php?f=77&t=58690
+
+
 https://github.com/Matten-Matten/node-red-enigma2-flow/blob/master/enigma2-SUB-Flow.json
 
 ---
