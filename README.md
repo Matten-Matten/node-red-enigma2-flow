@@ -1,5 +1,5 @@
 # **NodeRed Enigma2 Subflow** ![picture](https://avatars3.githubusercontent.com/u/5375661?s=50&v=4)
-## `V 0.0.4`
+## `V 0.0.7`
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
  
@@ -107,6 +107,16 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
  - `TV`
  
  - `UP`
+ 
+ - `VOL_UP`
+ 
+ - `VOL_DOWN`
+ 
+ - `MEDIA`
+
+ - `REWIND`
+
+ - `VORWARD`
 
 ---
 ### _msg.zap:_
@@ -181,6 +191,10 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 ---
 
 ## Changelog
+
+
+### 0.0.7 (2020-07-05)
+* (Matten-Matten)       add:  commands `VOL_UP`,`VOL_DOWN`,`MEDIA`,`REWIND`,`VORWARD`
 
 ### 0.0.4 (2020-05-15)
 * (Matten-Matten)       bugfix: `fix bug in message reply`
