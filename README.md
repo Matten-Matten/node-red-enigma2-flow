@@ -116,7 +116,15 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 
  - `REWIND`
 
- - `VORWARD`
+ - `FORWARD`
+ 
+ - `GREEN`
+
+ - `BLUE`
+
+ - `YELLOW`
+
+ - `RED`
 
 ---
 ### _msg.zap:_
@@ -192,9 +200,11 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 
 ## Changelog
 
+### 0.0.8 (2020-07-06)
+* (Matten-Matten)       add:  commands `GREEN`,`BLUE`,`YELLOW`,`RED`
 
 ### 0.0.7 (2020-07-05)
-* (Matten-Matten)       add:  commands `VOL_UP`,`VOL_DOWN`,`MEDIA`,`REWIND`,`VORWARD`
+* (Matten-Matten)       add:  commands `VOL_UP`,`VOL_DOWN`,`MEDIA`,`REWIND`,`FORWARD`
 
 ### 0.0.4 (2020-05-15)
 * (Matten-Matten)       bugfix: `fix bug in message reply`
