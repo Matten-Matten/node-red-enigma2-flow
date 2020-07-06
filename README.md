@@ -1,5 +1,5 @@
 # **NodeRed Enigma2 Subflow** ![picture](https://avatars3.githubusercontent.com/u/5375661?s=50&v=4)
-## `V 0.0.7`
+## `V 0.0.8`
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
  
