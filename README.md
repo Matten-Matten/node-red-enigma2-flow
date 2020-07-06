@@ -202,6 +202,7 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 
 ### 0.0.8 (2020-07-06)
 * (Matten-Matten)       add:  commands `GREEN`,`BLUE`,`YELLOW`,`RED`
+* (Matten-Matten)       bugfix: `error in the form of a command`
 
 ### 0.0.7 (2020-07-05)
 * (Matten-Matten)       add:  commands `VOL_UP`,`VOL_DOWN`,`MEDIA`,`REWIND`,`FORWARD`
