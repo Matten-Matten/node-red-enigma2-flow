@@ -1,5 +1,5 @@
-# **NodeRed Enigma2 Subflow** ![picture](https://avatars3.githubusercontent.com/u/5375661?s=50&v=4)
-## `V 0.0.8`
+# **NodeRed Enigma2 Subflow** ![picture](https://avatars3.githubusercontent.com/u/5375661?s=40&v=4)
+## `V 1.0.0`
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
 
@@ -37,7 +37,7 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 ---
 ### _msg.command:_
 
-`REMOTE-CONTROL-(Number)`
+`REMOTE-CONTROL-(Number! not String)`
 
  - 116 Key "Power"	
  - 2   Key "1"	 
@@ -202,6 +202,14 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 ---
 
 ## Changelog
+
+### 1.0.0 (2021-02-09)
+* (Matten-Matten)       add:  Password `uri encode`
+* (Matten-Matten)       add: `Output values with every update`
+* (Matten-Matten)       bugfix: `Message Text uri encode`
+
+### 0.0.9 (2020-12-01)
+* (Matten-Matten)       some litle fixes
 
 ### 0.0.8 (2020-07-06)
 * (Matten-Matten)       add:  commands `GREEN`,`BLUE`,`YELLOW`,`RED`
