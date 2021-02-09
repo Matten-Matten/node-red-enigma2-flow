@@ -1,5 +1,5 @@
 # **NodeRed Enigma2 Subflow** ![picture](https://avatars3.githubusercontent.com/u/5375661?s=40&v=4)
-## `V 1.0.0`
+## `V 1.0.1`
  - Subflow for Nodered to retrieve information from an enigma2 receiver and send commands.
  - (DE) Subflow für Nodered um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
 
@@ -202,6 +202,9 @@ _`msg.message = {`_**`text`**_`:"Das ist eine Testnachricht!",`_**`Type`**_`:0,`
 ---
 
 ## Changelog
+
+### 1.0.1 (2021-02-09)
+* (Matten-Matten)       bugfix: `REMOTE-CONTROL`
 
 ### 1.0.0 (2021-02-09)
 * (Matten-Matten)       add:  Password `uri encode`
